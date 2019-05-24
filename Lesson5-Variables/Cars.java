@@ -36,16 +36,18 @@ long phone1, phone2, phone3, phone4, phone5;
     phone3=100497847;
     phone4=154547184;
     phone5=101245718;
+boolean a = true;
+boolean b = false;
 
-System.out.println (num1+"."+"Model: "+car1+". "+"       Fuel Consumption:"+fuelCons1+" l/100km "+". "+"Price: "+price1+" "+valute1+". "+"   Phone: "+"+373"+phone1+".");
+System.out.println (num1+"."+"Model: "+car1+". "+"       Fuel Consumption:"+fuelCons1+" l/100km "+". "+"Price: "+price1+" "+valute1+". "+"   Phone: "+"+373"+phone1+"."+"  New: "+a) ;
 System.out.println();
-System.out.println (num2+"."+"Model: "+car2+". "+"       Fuel Consumption:"+fuelCons2+" l/100km "+". "+" Price: "+price2+" "+valute2+". "+"    Phone: "+"+373"+phone2+".");
+System.out.println (num2+"."+"Model: "+car2+". "+"       Fuel Consumption:"+fuelCons2+" l/100km "+". "+" Price: "+price2+" "+valute2+". "+"    Phone: "+"+373"+phone2+"."+"  New: "+a);
 System.out.println();
-System.out.println (num3+"."+"Model: "+car3+". "+"    Fuel Consumption:"+fuelCons3+" l/100km "+". "+"Price: "+price3+" "+valute3+". "+"    Phone: "+"+373"+phone3+".");
+System.out.println (num3+"."+"Model: "+car3+". "+"    Fuel Consumption:"+fuelCons3+" l/100km "+". "+"Price: "+price3+" "+valute3+". "+"    Phone: "+"+373"+phone3+"."+"  New: "+b);
 System.out.println();
-System.out.println (num4+"."+"Model: "+car4+". "+"Fuel Consumption:"+fuelCons4+" l/100km "+". "+" Price: "+price4+" "+valute4+". "+"   Phone: "+"+373"+phone4+".");
+System.out.println (num4+"."+"Model: "+car4+". "+"Fuel Consumption:"+fuelCons4+" l/100km "+". "+" Price: "+price4+" "+valute4+". "+"   Phone: "+"+373"+phone4+"."+"  New: "+b);
 System.out.println();
-System.out.println (num5+"."+"Model: "+car5+". "+"   Fuel Consumption:"+fuelCons5+" l/100km "+". "+" Price: "+price5+" "+valute5+". "+"    Phone: "+"+373"+phone5+".");
+System.out.println (num5+"."+"Model: "+car5+". "+"   Fuel Consumption:"+fuelCons5+" l/100km "+". "+" Price: "+price5+" "+valute5+". "+"    Phone: "+"+373"+phone5+"."+"  New: "+a);
 
 }
 }
