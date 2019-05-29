@@ -1,13 +1,13 @@
 public class LearningWhile {
 	public static void main(String[] args) {
-	byte a=0;
-	byte b=0;/* am adaugat "byte b=0" p/u ca programul facea doar prima intructiune "white (0<=100)" ,de ce nu efectua pe restu nu am inteles*/
+	byte b=0;
       	System.out.println( "Numere(0-100):");
-	while(a<=100){
-	System.out.println(a);
-	a++;
+	while(b<=100){
+	System.out.println(b);
+	b++;
 }
 	System.out.println("Numere Pare (0-50):");
+	byte b=0;// am adaugat "byte b=0" p/u ca dupa rimul while b=100 , expica te rog ?
 	while(b<=50){
 	if (b%2==0)if(b!=0)//am adaugat exceptia "b!=0" p/u ca imi arata ca 0 este numar par
 	System.out.println(b);
