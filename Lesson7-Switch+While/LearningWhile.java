@@ -7,7 +7,7 @@ public class LearningWhile {
 	b++;
 }
 	System.out.println("Numere Pare (0-50):");
-	byte b=0;// am adaugat "byte b=0" p/u ca codul mai departe nu imi arata nimic , sa inteleg ca dupa primul while b=100 si de aceea nu merge
+	b=0;// am adaugat "byte b=0" p/u ca codul mai departe nu imi arata nimic , sa inteleg ca dupa primul while b=100 si de aceea nu merge
 	//expica te rog ?
 	while(b<=50){
 	if (b%2==0)if(b!=0)//am adaugat exceptia "b!=0" p/u ca imi arata ca 0 este numar par

@@ -5,6 +5,8 @@ class Forif {
       for (int i = 100; i <=100&&i>=0; i--) {
       System.out.print (i +" ");
       }System.out.println (); 
+
+
       System.out.print ( "Numere pare (50-0): "); 
       for (int i =100; i<=100&& i>0;i--){
       if (i<=50) if (i%2==0)
