@@ -9,6 +9,7 @@ class AlfabetNota {
 	case 'O' :
 	case 'U' :
 	System.out.println(leter+" este o vocala");
+	break;
 	default:
 	System.out.println(leter+" este o consoana");
 	}
