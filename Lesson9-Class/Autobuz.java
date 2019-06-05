@@ -7,7 +7,7 @@ public class Autobuz {
 	public void stationeaza(){
 	System.out.println ("Autobuzul stationeaza in parcare");}
 	public void repara (){
-	System.out.println ("Autobuzul");}
+	System.out.println ("Autobuzul se repara");}
 	public static void main(String []args){
 	Autobuz aut4 = new Autobuz(); 
 	aut4.nr= "29";
