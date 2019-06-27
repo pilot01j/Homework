@@ -1,3 +1,5 @@
+
+
 /*@author pilot*/
 public class Calculator {
     public int add (int a,int b){return a+b;}
@@ -20,10 +22,10 @@ public class Calculator {
     public float division(float a,float b){return a/b;}
     public double division (double a,double b){return a/b;}
     
-    public int percent(int a,int b){return ((b*100)/a);}
-    public long percent(long a,long b){return ((b*100)/a);}
-    public float percent(float a,float b){return ((b*100)/a);}
-    public double percent (double a,double b){return ((b*100)/a);}  
+    public int percent(int a,int b){return ((b*a)/100);}
+    public long percent(long a,long b){return ((b*a)/100);}
+    public float percent(float a,float b){return ((b*a)/100);}
+    public double percent (double a,double b){return ((b*a)/100);}  
 }
 
 
